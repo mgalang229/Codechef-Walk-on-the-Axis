@@ -10,11 +10,9 @@ int main() {
 	while (tt--) {
 		long long n;
 		cin >> n;
-		// view the image in this repository for problem visualization
-		long long a = n * 2;
-		n--;
-		long long b = (n * (n + 1)) / 2;
-		cout << a + b << '\n';
+		// view the image in this repository for better understanding
+		long long temp = (n * (n + 1)) / 2;
+		cout << n + temp << '\n';
 	}
 	return 0;
 }
